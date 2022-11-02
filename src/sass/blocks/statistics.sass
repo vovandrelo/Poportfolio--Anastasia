@@ -1,0 +1,30 @@
+@import '../vars.sass'
+
+.statistics
+    background-color: $bg2
+    &__container
+        padding-top: 30px
+        padding-bottom: 30px
+    &__blocks
+        display: flex
+        justify-content: space-around
+    &__block
+        width: 300px
+        text-align: center
+        &-value
+            -webkit-box-shadow: 0px 0px 35px 15px rgba(0, 0, 0, 0.2)
+            -moz-box-shadow: 0px 0px 35px 15px rgba(0, 0, 0, 0.2)
+            box-shadow: 0px 0px 35px 15px rgba(0, 0, 0, 0.2)
+            cursor: pointer
+            border-radius: 15px
+            font-size: 26px
+            font-weight: 700
+            padding: 10px
+            color: $main
+            background-color: $other2
+            transition: transform 0.5s
+            &:hover
+                transform: translate(5px, -5px)
+        &-text
+            margin-top: 15px
+            font-size: 20px

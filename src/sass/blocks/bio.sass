@@ -1,0 +1,43 @@
+@import '../vars.sass'
+.bio
+    background-color: $bg2
+    &__container
+        padding-top: 30px
+        padding-bottom: 30px
+    &__title
+        font-size: 32px
+        font-weight: 700
+        display: block
+        text-align: center
+        margin-top: 30px
+    &__main
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        margin-top: 30px
+    &__image
+        background-color: $other1
+        -webkit-box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.2)
+        -moz-box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.2)
+        box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.2)
+        cursor: pointer
+        transition: transform 0.5s, box-shadow 0.5s
+        height: 600px
+        border-radius: 10px
+        overflow: hidden
+        width: 40%
+        font-size: 30px
+        justify-content: center
+        align-items: center
+        display: flex
+        &:hover
+            transform: translate(5px, -5px)
+            -webkit-box-shadow: 0px 0px 23px 16px rgba(0, 0, 0, 0.2)
+            -moz-box-shadow: 0px 0px 23px 16px rgba(0, 0, 0, 0.2)
+            box-shadow: 0px 0px 23px 16px rgba(0, 0, 0, 0.2)
+    &__description
+        text-align: justify
+        width: 55%
+        font-size: 24px
+        p
+            margin-top: 15px
