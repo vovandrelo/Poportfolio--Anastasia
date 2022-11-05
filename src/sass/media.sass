@@ -52,3 +52,20 @@
                 margin: 0 auto
                 &-text
                     margin-bottom: 30px
+
+@media (max-width: 540px)
+    .container
+        width: 100%
+        .bio__image
+            width: 90%
+            height: 300px
+        .separator
+            display: none
+        .statistics
+            &__block
+                width: 200px
+        .contacts
+            &__blocks
+                flex-direction: column
+            &__block
+                margin-top: 40px
